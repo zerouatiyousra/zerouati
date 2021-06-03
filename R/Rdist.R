@@ -33,6 +33,7 @@ rdist<-function(x,p)
     y=x[n]
     return(y)
    }
+  }
     rdistn<-function(x,p,n)
 {z<-c(1:n)
 for(j in 1:n)
@@ -44,7 +45,7 @@ for(j in 1:n)
 return(z)
 }
   
-  }
+  
 
 
 
